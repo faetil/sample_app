@@ -8,6 +8,9 @@ gem 'rails', '~> 5.2.3'
 gem 'bcrypt', '~> 3.1.12' 
 gem 'bootstrap-sass'
 gem 'rails-controller-testing'
+gem 'jquery-rails'
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
+
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -70,3 +73,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
